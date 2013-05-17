@@ -1,0 +1,170 @@
+td.sidepane {
+  background-image: linear-gradient(bottom, rgb(198,197,219) 28%, rgb(227,228,255) 64%);
+  background-image: -o-linear-gradient(bottom, rgb(198,197,219) 28%, rgb(227,228,255) 64%);
+  background-image: -moz-linear-gradient(bottom, rgb(198,197,219) 28%, rgb(227,228,255) 64%);
+  background-image: -webkit-linear-gradient(bottom, rgb(198,197,219) 28%, rgb(227,228,255) 64%);
+  background-image: -ms-linear-gradient(bottom, rgb(198,197,219) 28%, rgb(227,228,255) 64%);
+
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.28, rgb(198,197,219)),
+  color-stop(0.64, rgb(227,228,255))
+  );
+}
+
+
+.container {
+  width: 600px;
+  height: 40px;
+  clear: both;
+}
+
+ol {
+  margin-left: 2em;
+}
+
+ul {
+  margin-left: 2em;
+}
+
+ul.navbar {
+  position:absolute;
+  top:2em;
+  left:1em;
+  width:10em; 
+  font-size : 14pt;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+
+div.spacer {
+  clear:both;
+  padding-top: 15px;
+}
+
+div.row {
+  clear: both;
+  padding-top: 15px;
+}
+
+div.row span.l1 {
+  float: left;
+  width: 40%; 
+  text-align: left;
+  font-size : 12pt;
+  color : #8F80F0;
+}
+
+div.row span.label {
+  float: left;
+  width: 60%; 
+  text-align: left;
+}
+
+div.row span.formw {
+  float: left;
+  width: 75%;
+  text-align: right;
+} 
+
+td.main {
+  padding:5em;
+  left-border:2px;
+  /*border:10px;*/
+  box-shadow: 5px 5px 5px;
+}
+
+body {
+  background-color: #F4F4F4;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px;
+}
+
+a {
+  text-decoration:none;
+  color:#000000;
+}
+
+a:hover {
+  text-decoration:underline;
+  color:#0000FF;
+}
+
+table{
+ table-layout:fixed; 
+ width:100%;
+}
+table.main
+{
+  font: 12pt Arial, helvetica;
+  text-decoration:none;
+  color:#000000;
+}
+
+.my
+{
+  font: 13pt Arial, helvetica;
+  text-decoration:none;
+  color:#000000;
+}
+
+.my input
+{
+  font: 13pt Verdana, Arial, helvetica;
+  text-decoration:none;
+  color:#000000;
+}
+
+.my textarea
+{
+  font: 12pt Verdana, Arial, helvetica;
+  text-decoration:none;
+  color:#000000;
+}
+
+P {
+  font: 12pt Arial, helvetica;
+  display: block;
+  text-align:left;
+  text-decoration:none;
+  color:#000000;
+}
+
+H1 {
+  font: 19pt Tahoma,Arial,helvetica;
+  margin-top:1px;
+  margin-bottom:4px;
+  text-decoration:none;
+  color:#000000;
+}
+
+H2 {
+  font: 15pt Tahoma,Arial,helvetica;
+  margin-top:1px;
+  margin-bottom:2px;
+  text-decoration:none;
+  color:#000000;
+}
+
+H3 {
+  font: 12pt Tahoma,Arial,helvetica;
+  font-weight: bold;
+  margin-top:1px;
+  margin-bottom:1px;
+  text-decoration:none;
+  color:#000000;
+}
+
+H4 {
+  font: 13pt Tahoma,Arial,helvetica;
+  margin-top:4px;
+  margin-bottom:2px;
+  text-decoration:none;
+  color:#000000;
+}
+/* ---------- user.css ---------------- */
